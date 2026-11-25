@@ -3,7 +3,8 @@
 // The joke is assembled from two halves — a mundane setup and a legal
 // twist — then checked against the 1–140 character gate and written to
 // /output/entry.txt. Nothing here is random, time-based, or networked, so
-// every run produces the exact same bytes.
+// every run produces the exact same bytes. The gate mirrors the
+// competition's: 1–140 characters, one line, no trailing newline.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
